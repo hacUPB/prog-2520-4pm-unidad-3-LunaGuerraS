@@ -30,10 +30,3 @@ else:
                 print("Está en obesidad")
             else:
                 print ("Esta en obesidad extrema")
-
-#TAREA
-#Crear un archivo.md en el mismo repositorio fuera de la carpeta SRC y
-#Crear las siguientes tablas
-#Operadores arirmeticos
-#Operacionees relacionales
-#Tipos de datos en Python
