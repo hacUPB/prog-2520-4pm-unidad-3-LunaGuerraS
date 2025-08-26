@@ -19,14 +19,13 @@ print ("Su IMC = ", IMC)
 #Cuando este en peso bajo
 if IMC < 18.49:
     print("Está en sobre peso")
+elif IMC < 24.99:
+    print("Está en un peso normal")
+elif IMC < 29.99:
+    print("Está en sobrepeso")
+elif IMC < 39.99:
+    print("Está en obesidad")
 else:
-    if IMC < 24.99:
-        print("Está en un peso normal")
-    else:
-        if IMC < 29.99:
-            print("Está en sobrepeso")
-        else:
-            if IMC < 39.99:
-                print("Está en obesidad")
-            else:
-                print ("Esta en obesidad extrema")
+    print ("Esta en obesidad extrema")
+
+print(f"{Nombre}, tu IMC es de {IMC:0.2f}")
