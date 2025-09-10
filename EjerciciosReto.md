@@ -23,14 +23,7 @@ Al final, muestra el valor del CG y alerta si está fuera del rango permitido pa
 
 | Variable de salida | Descrición | Tipo de variable |
 |--------------------|------------|------------------|
-| Zonas | Numero de zonas de carga del avión | Variable tipo float |
+| Zonas | Numero de zonas de carga del avión | Variable tipo int |
+| Posicion | Posición de cada zona con respecto al punto de referencia | Variable tipo float |
+| Peso | Peso cargado en cada zona | Variable tipo float |
 
-
-
-## 3. Cálculo de peso y balance de la aeronave:
-Solicita el número de zonas de carga y el peso en cada zona. Usa un bucle para sumar el peso total y calcular el centro de gravedad, alertando si está fuera del rango permitido.
-
-| Variable de entrada | Descrición | Tipo de variable |
-|---------------------|------------|------------------|
-| Combustible | La cantidad inicial de combustible en litros | Variable tipo int |
-| Gasto | La cantidad de combustible que se consume por hora | Variable tipo int |
